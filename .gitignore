@@ -1,0 +1,19 @@
+# Common
+.idea/
+
+# Python
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.py[oc]
+
+# UV
+.venv
+
+# Project
+build/
+dist/
+ignore/
+wheels/
+*.egg-info
