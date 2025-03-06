@@ -13,7 +13,6 @@ __pycache__/
 
 # Project
 build/
-dist/
 ignore/
 wheels/
 *.egg-info
