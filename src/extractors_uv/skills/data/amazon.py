@@ -19,6 +19,7 @@ SKILLS: list[Skill] = [
     dis_namelike(),
   ]),
   Tech("AWS-Beanstalk", ["aws=beanstalk", "amazon=beanstalk", "beanstalk"], "Webapp deployment"),
+  Tech("AWS-Bedrock", ["aws=bedrock", "amazon=bedrock", "bedrock"], "Managed AI model access"),
   Tech("AWS-CloudFormation", ["aws=cloudformation", "amazon=cloudformation", "cloudformation"], "IAC provisioning"),
   Tech("AWS-CloudFront", ["aws=cloudfront", "amazon=cloudfront", "cloudfront"], "CDN"),
   Tech("AWS-CloudWatch", ["aws=cloudwatch", "amazon=cloudwatch", "cloudwatch"], "Monitoring umbrella"),

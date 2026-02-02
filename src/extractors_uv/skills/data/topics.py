@@ -97,6 +97,7 @@ SKILLS: list[Skill] = [
   Topic("Data-Mining", ["data=mining", "data=extraction"]),
   Topic("Data-Visualization", ["data=visualization(s)", "data=visualisation(s)", "data=viz"]),
   Topic("ETL", ["etl(s)", "elt"]),
+  Topic("OCR", ["ocr", "optical=character=recognition"]),
 
   # DATABASES >
   Topic("Datalake", ["data=lake(s)"], publicname="Datalakes"),
@@ -233,6 +234,7 @@ SKILLS: list[Skill] = [
     "cyber=security", "cyber=sec", "cyber=defence",
     "exploit(s)", "malware", "malicious",
     "vulnerability", "vulnerabilities",
+    "jailbreaking", "guardrails", "safety=alignment",
   ]),
   Topic("Info-Security", [
     "information=security", "info=security", "info=sec",
@@ -275,7 +277,7 @@ SKILLS: list[Skill] = [
   Topic("Process", ["process(es)", "processing", "multi=processing"], publicname="Processes"),
   Topic("SSH", ["ssh"]), # also OPERATIONS
   Topic("Socket", ["socket(s)"], publicname="Sockets"),
-  Topic("Stream", ["stream(s)"], publicname="Streams"),
+  Topic("Stream", ["stream(s)", "streaming", "server-sent=events", "sse"], publicname="Streams"),
   Topic("Thread", ["thread(s)", "threading", "multi=threading"], publicname="Threads"),
   # Computer(s) (computing) (from CS)
   # Scheduler / Scheduling

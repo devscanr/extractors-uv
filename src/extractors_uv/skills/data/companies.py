@@ -7,7 +7,6 @@ SKILLS: list[Skill] = [
   Company("AMD", ["(@)amd", "amd=32", "amd=64"]),
   Company("Autodesk", ["(@)autodesk"]),
   Company("eBay", ["(@)ebay"]),
-  Company("Facebook", ["(@)facebook"]), # TODO meta?
   Company("IBM", ["(@)ibm"]),
   Company("Intel", ["(@)intel"]),
   Company("Kaggle", ["(@)kaggle"]),
@@ -17,4 +16,9 @@ SKILLS: list[Skill] = [
   Company("SalesForce", ["(@)salesforce"]),
   Company("SAP", ["(@)sap"]),
   Company("Vercel", ["(@)vercel"]),
+
+  Company("Anthropic", ["(@)anthropic"], "High-reasoning AI models"),
+  Company("OpenAI", ["(@)open=ai"], "High-reasoning AI models"),
+  Company("Groq", ["groq"], "Ultra-fast LPU inference engine"),
+  Company("HuggingFace", ["hugging=face", "hf"], "Repository for open-source models"),
 ]

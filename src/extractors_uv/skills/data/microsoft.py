@@ -56,6 +56,7 @@ SKILLS: list[Skill] = [
   Tech("Azure-CosmosDB", ["azure-cosmosdb"]), # noSQL + relational DB
   Tech("Azure-IoT", ["azure-iot"]), # IoT platform
   Tech("Azure-Kubernetes", ["azure-kubernetes-service", "azure-ks", "aks"]), # ~ Amazon-EKS
+  Tech("Azure-OpenAI", ["azure-openai"]), # enterprise OpenAI instances
   Tech("Azure-Relay", ["azure-relay"]), # enables to securely expose services that run in corporate network to the public cloud
   Tech("Azure-SQL", ["azure-sql"]), # Managed Cloud Database Service
   Tech("Azure-Synapse", ["azure-synapse"]), # service that brings together enterprise data warehousing and bigdata analytics

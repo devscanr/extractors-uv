@@ -1,6 +1,7 @@
 from ...xpatterns import IN, LOWER, OP, propn, ver1
 from ..tag import Skill, Tech
 from ..utils import dis_incontext, dis_namelike, dis_nounlike, dis_precisely, dis_verblike
+from .ai import SKILLS as AI_SKILLS
 from .adobe import SKILLS as ADOBE_SKILLS
 from .amazon import SKILLS as AMAZON_SKILLS
 from .apache import SKILLS as APACHE_SKILLS
@@ -8,6 +9,7 @@ from .apple import SKILLS as APPLE_SKILLS
 from .cisco import SKILLS as CISCO_SKILLS
 from .google import SKILLS as GOOGLE_SKILLS
 from .hashicorp import SKILLS as HASHICORP_SKILLS
+from .meta import SKILLS as META_SKILLS
 from .microsoft import SKILLS as MICROSOFT_SKILLS
 from .yandex import SKILLS as YANDEX_SKILLS
 # ...
@@ -18,6 +20,7 @@ from .topics import SKILLS as TOPICS_SKILLS
 from .languages import SKILLS as LANGUAGE_SKILLS
 
 SKILLS: list[Skill] = [
+  *AI_SKILLS,
   *ADOBE_SKILLS,
   *AMAZON_SKILLS,
   *APACHE_SKILLS,
@@ -25,6 +28,7 @@ SKILLS: list[Skill] = [
   *CISCO_SKILLS,
   *GOOGLE_SKILLS,
   *HASHICORP_SKILLS,
+  *META_SKILLS
   *MICROSOFT_SKILLS,
   *YANDEX_SKILLS,
   # ...
