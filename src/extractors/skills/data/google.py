@@ -28,7 +28,7 @@ SKILLS: list[Skill] = [
   Tech("Google-Firebase", ["google=firebase", "firebase"]),
   Tech("Google-Gemini", ["google=gemini", ver1("gemini")]),
   Tech("Google-Kubernetes", ["google-kubernetes-engine", "google=ke", "google=ks", "gke", "gks"]), # ~ Amazon-EKS
-  Tech("Google-Pub/Sub", ["google-pub/sub"]),
+  Tech("Google-Pub/Sub", ["google-pub/sub", "google-pub=sub", "cloud pub/sub", "cloud-pub=sub"]),
   Tech("Google-Sheets", ["google=sheets"]),
 
   # Drive

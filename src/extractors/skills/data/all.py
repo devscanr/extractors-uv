@@ -337,7 +337,7 @@ SKILLS: list[Skill] = [
   Tech("Arweave", ["arweave"], "A permanent and decentralized web inside an open ledger"),
   Tech("Bitcoin", ["bitcoin"]),
   Tech("Ethereum", ["ethereum"]),
-  Tech("EthersJS", ["eithers.=js"]),
+  Tech("EthersJS", ["ethers.=js"]),
   Tech("EVM", ["evm"], "Ethereum Virtual Machine"),
   Tech("Solana", ["solana"]),
   Tech("Web3JS", ["web3.=js"]),
@@ -369,13 +369,13 @@ SKILLS: list[Skill] = [
   # CANVAS, Empire, Core Impact -- attack frameworks
 
   # ROBOTICS
-  # Tech("ABB", ["abb"]),           # robot brand
+  # Tech("ABB", ["abb"]),          # robot brand
   Tech("Fanuc", ["fanuc"]),       # robot brand
   Tech("iCub", ["icub"]),         # robot brand
-  Tech("HyQ", ["hyq"]),           # robot brand
+  Tech("HyQ", ["hyq", "hyq2max"]), # robot brand
   Tech("KUKA", ["kuka"]),         # robot brand
   Tech("OpenCV", ["opencv"]),     # open source Computer Vision library
-  # Tech("Omron", ["omron"]),       # electronics corporation
+  # Tech("Omron", ["omron"]),      # electronics corporation
   Tech("FreeRTOS", ["freertos"]), # OS, also EMBEDDED-n-SYSTEM
   Tech("ROS", ["ros"]),           # OS, also EMBEDDED-n-SYSTEM
   # Tech("SLAM", ["slam", "vslam"]), # simultaneous localization and mapping
@@ -413,7 +413,7 @@ SKILLS: list[Skill] = [
   Tech("ESP32", ["esp=32"]), # controller family
   Tech("ESP8266", ["esp=8266"]), # controller family
   Tech("FPGA", ["fpga"]), # FPGAs are reprogrammable devices that provide flexibility and rapid prototyping capabilities
-  Tech("i.MX6", ["i.mx=6"]), # platform
+  Tech("i.MX6", ["i.mx=6", "imx=6"]), # platform
   Tech("LabVIEW", ["labview"]),
   Tech("KiCad", ["kicad=eda", "kicad"]),
   Tech("MicroBlaze", ["microblaze"]), # soft core

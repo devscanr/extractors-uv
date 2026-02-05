@@ -1,5 +1,5 @@
 # mypy: disable-error-code=no-untyped-def
-from extractors_uv.utils import normalize
+from extractors.utils import normalize
 
 class Test_normalize:
   def test_smoke(self) -> None:

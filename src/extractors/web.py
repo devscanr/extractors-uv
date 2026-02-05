@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup, Comment, NavigableString, ParserRejectedMarkup, T
 from markdown import markdown
 import re
 
-def html2text(html: str) -> str:
+def _html2text(html: str) -> str:
   soup = BeautifulSoup(html, features="html.parser")
   texts: list[str] = []
   for element in soup.descendants:
@@ -34,24 +34,27 @@ def html2text(html: str) -> str:
 
   return "\n\n".join(text for text in texts)
 
-def html2text_(html: str) -> str:
+def html2text(html: str) -> str:
   try:
-    return html2text(html)
+    return _html2text(html)
   except ParserRejectedMarkup:
     return ""
 
+# markdown2html
+def markdown2html(md: str) -> str:
+  if not md:
+    return ""
+  return markdown(md, extensions=["fenced_code"])
+
+# markdown2text
 def markdown2text(md: str) -> str:
   if not md:
     return ""
-  html = markdown(md, extensions=["fenced_code"])
-  return html2text(html)
+  return html2text(
+    markdown2html(md)
+  )
 
-def markdown2text_(html: str) -> str:
-  try:
-    return markdown2text(html)
-  except ParserRejectedMarkup:
-    return ""
-
+# predicates
 def is_whitelist_url(href: str) -> bool:
   return re.search(WHITE_DOMAINS_REGEX, href) is not None
 

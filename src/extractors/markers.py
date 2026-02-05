@@ -1,9 +1,9 @@
 import re
 from spacy.tokens import Token
 from typing import cast
-from extractors_uv.ppatterns import expand_parens
-from extractors_uv.spacyhelpers import left_token
-from extractors_uv.utils import revlist, revtakeuntil
+from extractors.ppatterns import expand_parens
+from extractors.spacyhelpers import left_token
+from extractors.utils import revlist, revtakeuntil
 
 PAST_MARKERS = {
   "ex",

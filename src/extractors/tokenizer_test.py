@@ -1,7 +1,7 @@
 # mypy: disable-error-code=no-untyped-def
 import pytest
-from extractors_uv.tokenizer import modify_tokenizer
-from extractors_uv.utils import get_nlp
+from extractors.tokenizer import modify_tokenizer
+from extractors.utils import get_nlp
 
 class Test_Tokenizer:
   @pytest.fixture(scope="class")

@@ -44,3 +44,7 @@ close parentheses... You can't match against formats that are not obeyed, to beg
 `python-phonenumbers` can parse properly formatted international numbers. In many cases 
 you have to provide a locale to disambiguate. This is inacceptable for real-world parsing 
 where we often don't know the locale.
+
+## Random Notes
+
+- `$ spacy download` depends on `pip` (called as a subprocess, not the best design) so it's added as a dependency

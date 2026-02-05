@@ -1,5 +1,5 @@
 # mypy: disable-error-code=no-untyped-def
-from extractors_uv.web import html2text, markdown2text
+from extractors.web import html2text, markdown2text
 from textwrap import dedent
 
 class Test_html2text:
